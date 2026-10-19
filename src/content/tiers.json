@@ -1,0 +1,141 @@
+{
+  "_readme": "Ownership and membership tiers as published by The Sentinel Syndicate (2024 flyers). Prices are in USD as supplied. Set 'priceKES' on any tier once a KES price is confirmed and it will be shown alongside. Leave a field as null to show 'Confirmed on enquiry'.",
+
+  "currency": "USD",
+
+  "ownership": {
+    "title": "Ownership Shares",
+    "intro": "Hold a direct share in the syndicate's racehorses, measured in units. One unit represents a 1% ownership interest.",
+    "structure": {
+      "valuation": "USD 100,000",
+      "syndicateShare": "55%",
+      "memberShare": "45%",
+      "note": "The Sentinel Syndicate (founder and management) retains 55%. Up to 45% is offered to members. Ask us about current availability."
+    },
+    "tiers": [
+      {
+        "id": "entry",
+        "name": "Entry",
+        "share": "3% ownership",
+        "units": "3 units",
+        "price": 3000,
+        "priceKES": null,
+        "pricePeriod": "initial contribution",
+        "ongoingCosts": null,
+        "benefits": [
+          "3% ownership interest",
+          "A proportionate interest in racing and any breeding outcomes, as set out in the ownership agreement",
+          "Regular syndicate updates",
+          "Invitations to selected syndicate events"
+        ],
+        "eligibility": null
+      },
+      {
+        "id": "growth",
+        "name": "Growth",
+        "share": "5% ownership",
+        "units": "5 units",
+        "price": 5000,
+        "priceKES": null,
+        "pricePeriod": "initial contribution",
+        "ongoingCosts": null,
+        "benefits": [
+          "5% ownership interest",
+          "A proportionate interest in racing and any breeding outcomes, as set out in the ownership agreement",
+          "Regular syndicate updates",
+          "Invitations to selected syndicate events",
+          "Priority access to future ownership opportunities"
+        ],
+        "eligibility": null
+      },
+      {
+        "id": "strategic",
+        "name": "Strategic",
+        "share": "10% ownership",
+        "units": "10 units",
+        "price": 10000,
+        "priceKES": null,
+        "pricePeriod": "initial contribution",
+        "ongoingCosts": null,
+        "benefits": [
+          "10% ownership interest",
+          "A proportionate interest in racing and any breeding outcomes, as set out in the ownership agreement",
+          "Regular syndicate updates",
+          "Invitations to selected syndicate events",
+          "Right of first refusal on future syndicate opportunities"
+        ],
+        "eligibility": null
+      }
+    ]
+  },
+
+  "membership": {
+    "title": "Club Membership",
+    "intro": "Annual membership of The Sentinel Syndicate's circle - sport, network and shared experiences, with or without an ownership share.",
+    "tiers": [
+      {
+        "id": "silver",
+        "name": "Silver",
+        "audience": "For individuals",
+        "price": 1099,
+        "priceKES": null,
+        "pricePeriod": "per year",
+        "benefits": [
+          "Jockey Owner (VIP) event access, all season",
+          "Premier golf club access",
+          "Shooting range access",
+          "Padel sessions",
+          "Horseback riding sessions",
+          "Access to a discreet business network",
+          "Invitations to member events and socials"
+        ],
+        "eligibility": null,
+        "motto": "Build your circle"
+      },
+      {
+        "id": "gold",
+        "name": "Gold",
+        "audience": "For enthusiasts",
+        "price": 1499,
+        "priceKES": null,
+        "pricePeriod": "per year",
+        "benefits": [
+          "Jockey Owner (VIP) event access, all season",
+          "Polo club VIP event access (half season)",
+          "Premier golf club access",
+          "Shooting range access",
+          "Padel sessions",
+          "Horseback riding sessions",
+          "Access to a discreet business network",
+          "Invitations to member events and socials",
+          "Priority access to selected equine experiences"
+        ],
+        "eligibility": null,
+        "motto": "Deepen your experience"
+      },
+      {
+        "id": "diamond",
+        "name": "Diamond",
+        "audience": "For families",
+        "price": 1999,
+        "priceKES": null,
+        "pricePeriod": "per year",
+        "benefits": [
+          "Jockey Owner (VIP) event access, all season",
+          "Polo club VIP event access, all season",
+          "Premier golf club access",
+          "Shooting range access",
+          "Padel sessions",
+          "Horseback riding sessions",
+          "Access to a discreet business network",
+          "Invitations to member events and socials",
+          "Priority access to selected equine experiences",
+          "Family access (spouse and children)"
+        ],
+        "eligibility": null,
+        "motto": "A lifestyle for generations"
+      }
+    ],
+    "footnote": "Membership benefits are as published by The Sentinel Syndicate. Venues, schedules and access are confirmed in writing when you join and remain subject to the terms of membership and the availability of partner venues."
+  }
+}

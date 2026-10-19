@@ -1,0 +1,82 @@
+{
+  "_readme": "One entry per horse. Copy an entry, change the fields and rebuild. 'sample: true' marks design-preview content - it is labelled on the site, excluded from the sitemap and hidden when site.json 'showSampleHorses' is false. Use null for anything not yet verified; it will be hidden or shown as 'To be confirmed'. status: available | racing | in-training | fully-subscribed | retired | sold.",
+
+  "horses": [
+    {
+      "slug": "sample-horse-one",
+      "sample": true,
+      "name": "Sample Horse I",
+      "image": "portraitBay",
+      "status": "available",
+      "racingStatus": "In training",
+      "age": 3,
+      "sex": "Colt",
+      "colour": "Bay",
+      "foaled": null,
+      "sire": null,
+      "dam": null,
+      "damsire": null,
+      "breeder": null,
+      "trainer": null,
+      "summary": "Sample listing showing how a horse available for syndication will appear. Replace with the horse's real profile.",
+      "introduction": "This is placeholder text for a horse's introduction - its character, its preparation so far and what the syndicate hopes to achieve with it. It does not describe a real horse.",
+      "record": null,
+      "recentRuns": [],
+      "updates": [],
+      "ownership": { "available": "Shares available", "from": 3000, "fromKES": null, "notes": "Sample figure for layout only." },
+      "fees": null
+    },
+    {
+      "slug": "sample-horse-two",
+      "sample": true,
+      "name": "Sample Horse II",
+      "image": "portraitChestnut",
+      "status": "racing",
+      "racingStatus": "Racing",
+      "age": 4,
+      "sex": "Filly",
+      "colour": "Chestnut",
+      "foaled": null,
+      "sire": null,
+      "dam": null,
+      "damsire": null,
+      "breeder": null,
+      "trainer": null,
+      "summary": "Sample listing showing a horse that is already racing for the syndicate, with its record and recent runs.",
+      "introduction": "Placeholder introduction for a horse already racing. Real profiles will include verified race results and approved training updates.",
+      "record": { "starts": null, "wins": null, "places": null, "verified": false },
+      "recentRuns": [
+        { "date": "To be confirmed", "course": "To be confirmed", "race": "Sample race entry", "distance": null, "position": null, "notes": "Example row - not a real result." }
+      ],
+      "updates": [
+        { "date": "To be confirmed", "title": "Sample training update", "text": "Example of an approved training or career update from the yard. Not a real update." }
+      ],
+      "ownership": { "available": "Limited shares", "from": 5000, "fromKES": null, "notes": "Sample figure for layout only." },
+      "fees": null
+    },
+    {
+      "slug": "sample-horse-three",
+      "sample": true,
+      "name": "Sample Horse III",
+      "image": "portraitSky",
+      "status": "fully-subscribed",
+      "racingStatus": "In training",
+      "age": 2,
+      "sex": "Gelding",
+      "colour": "Bay",
+      "foaled": null,
+      "sire": null,
+      "dam": null,
+      "damsire": null,
+      "breeder": null,
+      "trainer": null,
+      "summary": "Sample listing showing how a fully subscribed horse is marked, with an invitation to register interest in future opportunities.",
+      "introduction": "Placeholder introduction for a horse whose shares have all been taken up.",
+      "record": null,
+      "recentRuns": [],
+      "updates": [],
+      "ownership": null,
+      "fees": null
+    }
+  ]
+}

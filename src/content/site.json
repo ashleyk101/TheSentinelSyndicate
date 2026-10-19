@@ -1,0 +1,55 @@
+{
+  "_readme": "Business settings. Leave a value as an empty string or null when it has not been confirmed - the site hides or labels anything that is missing.",
+
+  "name": "The Sentinel Syndicate",
+  "shortName": "Sentinel Syndicate",
+  "url": "https://www.sentinelsyndicate.com",
+  "established": 2024,
+  "description": "A Kenyan racehorse syndicate offering shared ownership of thoroughbred racehorses. Explore available horses, ownership tiers and membership.",
+  "footerBlurb": "Shared racehorse ownership in Kenya. People, horses, opportunity - held to a higher standard.",
+
+  "contact": {
+    "phone": "+254112732248",
+    "phoneDisplay": "+254 112 732 248",
+    "whatsapp": "254112732248",
+    "whatsappMessage": "Hello, I would like to enquire about ownership with The Sentinel Syndicate.",
+    "email": "partner@sentinelsyndicate.com",
+    "location": "",
+    "operatingRegion": "Kenya",
+    "hours": ""
+  },
+
+  "_socialNote": "Add confirmed accounts only, e.g. { \"label\": \"Instagram\", \"url\": \"https://www.instagram.com/...\" }",
+  "social": [],
+
+  "forms": {
+    "_readme": "Enquiries are delivered by Web3Forms (https://web3forms.com). Create a free access key for partner@sentinelsyndicate.com and paste it below. Until a key is set, forms will NOT report success - visitors are shown direct contact options instead.",
+    "provider": "web3forms",
+    "endpoint": "https://api.web3forms.com/submit",
+    "accessKey": ""
+  },
+
+  "analytics": {
+    "_readme": "Optional. Add a Google Analytics 4 measurement ID (G-XXXXXXX). Analytics only loads after a visitor accepts the consent banner, and the banner only appears when an ID is set.",
+    "ga4MeasurementId": ""
+  },
+
+  "budgetRanges": {
+    "_readme": "Options shown in the 'Ownership budget' field. Prices were supplied in USD; add KES ranges here once confirmed.",
+    "currency": "USD",
+    "options": [
+      "Annual club membership (USD 1,099 - 1,999 per year)",
+      "USD 3,000 - 4,999 (around 3% ownership)",
+      "USD 5,000 - 9,999 (around 5% ownership)",
+      "USD 10,000 or more (10% ownership and above)",
+      "I would prefer to discuss this"
+    ]
+  },
+
+  "showSampleHorses": true,
+  "_showSampleHorsesNote": "Sample horses exist only to preview the design. Set to false once real horses are added to horses.json, or to show the 'no current listings' enquiry panel instead.",
+
+  "team": [],
+  "milestones": [],
+  "documents": []
+}

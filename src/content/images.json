@@ -1,0 +1,43 @@
+{
+  "_readme": "Photography library. Three source types: 'unsplash' (Unsplash photo ID), 'commons' (Wikimedia Commons thumb path, needs a credit) or 'src' (your own file in src/assets/img/, e.g. \"/assets/img/ngong-race-day.jpg\"). All current images are illustrative - none show syndicate horses. Replace them with your own Kenyan race-day photography as soon as you have it.",
+
+  "hero":        { "unsplash": "1495543377553-b2aba1f925d7", "alt": "Thoroughbreds and jockeys racing on a turf course beneath green hills" },
+  "gallop":      { "unsplash": "1516673699707-4f2a243fafaf", "alt": "A jockey in silks driving a chestnut racehorse along the rail" },
+  "motion":      { "unsplash": "1763718678099-fdb5c2f9cc50", "alt": "Black and white image of a racehorse and jockey at full gallop" },
+  "closeRace":   { "unsplash": "1526094633853-031707a44819", "alt": "Close view of a racehorse in a hood and blinkers at speed" },
+  "field":       { "unsplash": "1509399316151-9b86c70fdd40", "alt": "A field of racehorses kicking up the dirt as they race away" },
+  "gates":       { "unsplash": "1609510038916-9328a3c86966", "alt": "Racehorses breaking from the starting stalls" },
+  "stableAisle": { "unsplash": "1576692192914-9abed71b3ef9", "alt": "A horse standing in the sunlit aisle of a stable yard" },
+  "stables":     { "unsplash": "1566392785474-926a4c6257b5", "alt": "Horses looking out over the rails of an open-sided stable" },
+  "tack":        { "unsplash": "1598191559179-60cbc181eb51", "alt": "Close detail of a grey horse wearing a leather headcollar and rug" },
+  "portraitBay": { "unsplash": "1508598891962-ad31d5c5296a", "alt": "Portrait of a bay horse with a white star, wearing a bridle" },
+  "portraitChestnut": { "unsplash": "1762985197552-2a56495141f8", "alt": "Portrait of a chestnut horse with a white blaze in a grass paddock" },
+  "portraitSky": { "unsplash": "1563443803769-a5c44bd91e39", "alt": "A bay horse standing alert against a pale blue sky" },
+  "loose":       { "unsplash": "1694446942933-bc29e37df9f3", "alt": "A chestnut horse cantering freely across a grassy field" },
+
+  "ngongHills": {
+    "commons": "f/f2/Ngong%27_Hills%2C_Nairobi%2C_Kenya.jpg", "maxWidth": 2929,
+    "alt": "The Ngong Hills on the edge of Nairobi, seen across green Kenyan countryside",
+    "credit": { "title": "Ngong' Hills, Nairobi, Kenya", "author": "Siegmund Kamau", "licence": "CC BY-SA 3.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0", "source": "https://commons.wikimedia.org/wiki/File:Ngong%27_Hills,_Nairobi,_Kenya.jpg" }
+  },
+  "ngongRidge": {
+    "commons": "5/53/Ngong_Hills.jpg", "maxWidth": 2272,
+    "alt": "The green ridge of the Ngong Hills, Kenya",
+    "credit": { "title": "Ngong Hills", "author": "Rotsee2", "licence": "CC BY-SA 3.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0", "source": "https://commons.wikimedia.org/wiki/File:Ngong_Hills.jpg" }
+  },
+  "riftValley": {
+    "commons": "d/da/View_northeast_into_Great_Rift_Valley_from_Subukia_lookout%2C_Kenya.jpg", "maxWidth": 7360,
+    "alt": "Farmland and hills stretching into the Great Rift Valley from Subukia, Kenya",
+    "credit": { "title": "View northeast into Great Rift Valley from Subukia lookout, Kenya", "author": "Daniel Case", "licence": "CC BY-SA 4.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0", "source": "https://commons.wikimedia.org/wiki/File:View_northeast_into_Great_Rift_Valley_from_Subukia_lookout,_Kenya.jpg" }
+  },
+  "maraSunset": {
+    "commons": "9/91/Sunset_over_savanna%2C_Northern_Mara%2C_Kenya.jpg", "maxWidth": 3264,
+    "alt": "The sun setting over open savanna in the northern Mara, Kenya",
+    "credit": { "title": "Sunset over savanna, Northern Mara, Kenya", "author": "Daniel Case", "licence": "CC BY-SA 4.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0", "source": "https://commons.wikimedia.org/wiki/File:Sunset_over_savanna,_Northern_Mara,_Kenya.jpg" }
+  },
+  "nairobi": {
+    "commons": "6/60/Aerial_view_of_the_Nairobi_skyline_from_the_KICC_rooftop_at_golden_hour.jpg", "maxWidth": 4000,
+    "alt": "The Nairobi skyline at golden hour, seen from the KICC rooftop",
+    "credit": { "title": "Aerial view of the Nairobi skyline from the KICC rooftop at golden hour", "author": "Lebu Ayiga", "licence": "CC BY-SA 4.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0", "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Nairobi_skyline_from_the_KICC_rooftop_at_golden_hour.jpg" }
+  }
+}

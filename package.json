@@ -1,0 +1,12 @@
+{
+  "name": "sentinel-syndicate-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketing website for The Sentinel Syndicate - racehorse syndication in Kenya.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js dist 4173",
+    "start": "node scripts/build.js && node scripts/serve.js dist 4173"
+  },
+  "engines": { "node": ">=18" }
+}
